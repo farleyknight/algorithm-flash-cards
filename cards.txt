@@ -1,0 +1,14 @@
+Q: Your problem requires repetitive data lookups. What kind of data structure should you use?
+A: Use a hash-table.
+
+Q: Your problem requires repetitive lookups of occurences. What kind of data structure should you use?
+A: Use a hash-table of 'event to occurrences'.
+
+Q: Your problem requires reptitive fetch of min or max values. What kind of data structure should you use?
+A: Use a heap.
+
+Q: Your problem requires a list of all possible combinations. What kind of data structure should you use?
+A: Use a tree.
+
+Q: Your problem requires lots of relationships between things. What kind of data structure should you use?
+A: Use a graph.
