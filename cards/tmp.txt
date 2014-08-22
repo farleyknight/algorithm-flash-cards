@@ -1,0 +1,5 @@
+- Do I have to do repetitive look-ups of data? --> Use a hash-table.
+- Do I have to do repetitive look-ups number of occurrences? --> Use a hash-table of 'event to occurrences'.
+- Do I have to do repetitive fetch of min or max values? --> Use a heap.
+- Do I have to list all possible combinations? --> Use a tree.
+- Are there lots of relationships between things? --> Think about using a graph.
