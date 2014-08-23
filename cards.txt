@@ -12,3 +12,15 @@ A: Use a tree.
 
 Q: Your problem requires lots of relationships between things. What kind of data structure should you use?
 A: Use a graph.
+
+Q: A suffix trie is ...
+A: a space-efficient data structure to store a string that allows many kinds of queries to be answered quickly.
+
+Q: We have been given a string, and built a suffix trie from it. Queries can be answered in time ...
+A: O(|m|) where m = length(query), regardless of the original string's size.
+
+Q: Describe how you would count the number of occurences of q in S, given a suffix tree of a string S
+A: Follow the path for q starting from root. The number of leaves under the node you end up is in the number of occurences of q.
+
+Q: Describe how you would determine if q is a suffix of T, using a suffix tree
+A: 
